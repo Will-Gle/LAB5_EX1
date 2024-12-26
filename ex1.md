@@ -5,13 +5,19 @@
 1. Create endpoints to view, add, delete, and update User, Product, and ShoppingCart objects in two ways:
 
     1.1 Using standard query writing.
+
         - Create a database that includes User, Product, and ShoppingCart with corresponding data types:
+
         - **User**: Contains the following information: UserId, Full Name, Address, Registration Date.
+
         - **Product**: Contains: ProductId, Product Name, Price, Manufacturing Date.
+
         - **ShoppingCart**: Identify the necessary attributes to store user and shopping cart information.
 
     1.2 Using ORM (Object-Relational Mapping).
+
         - Define the required objects and appropriate data types for the models.
+
         - Return the results in API format as follows:
 
         ```json
@@ -22,8 +28,8 @@
         }
         ```
 
-        - For actions such as adding, deleting, and updating: display information about
-    the object just interacted with.
+        - For actions such as adding, deleting, and updating: display information about the object just interacted with.
+
         - For actions such as viewing: display information about all objects.
 
 2. Create an endpoint that accepts a user's email and sends an email with any content to
